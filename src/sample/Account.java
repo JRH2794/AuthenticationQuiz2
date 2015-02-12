@@ -24,7 +24,7 @@ public class Account {
     public String StoredPword; // The Auth[entication] method will check the user's input against
     // the stored U[ser]name and Password.
 
-    public void Acc() { // User default constructor method, before and account is created.
+    public void Acc() { // User default constructor method, before an account is created.
         StoredUname = "None Entered";
         StoredPword = "None Entered"; }
 
