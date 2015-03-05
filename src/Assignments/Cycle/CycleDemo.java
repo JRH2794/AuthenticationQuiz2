@@ -1,4 +1,4 @@
-package Assignments.Book;
+package Assignments.Cycle;
 import java.util.Scanner;
 public class CycleDemo {
 
