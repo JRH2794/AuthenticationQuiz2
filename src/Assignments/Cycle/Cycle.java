@@ -1,4 +1,4 @@
-package Assignments.Book;
+package Assignments.Cycle;
 
 public class Cycle {
     private int numberOfWheels, weight;
