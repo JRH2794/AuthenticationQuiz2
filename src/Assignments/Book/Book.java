@@ -1,17 +1,15 @@
 package Assignments.Book;
 public class Book {
 
-    String Title, Author; int NoP;
+    String title, author; int numberOfPages;
 
-    public Book () {
-        Title = "None";
-        Author = "None";
-        NoP = 0; }
+    public Book() {
+        this("none", "none", 0); }
 
-    public Book (String newA, String newT, int newN) {
-        Author = newA;
-        Title = newT;
-        NoP = newN; }
+    public Book(String newA, String newT, int newN) {
+        title = newA;
+        author = newT;
+        numberOfPages = newN; }
 
     public String toString() {
-       return "Title: " + Title + "\nAuthor: " + Author + "\nNumber of Pages: " + NoP; } }
+       return "Title: " + title + "\nAuthor: " + author + "\nNumber of Pages: " + numberOfPages; } }
