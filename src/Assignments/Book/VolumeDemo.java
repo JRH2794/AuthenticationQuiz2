@@ -4,12 +4,12 @@ public class VolumeDemo {
 
     public static void main(String[] args) {
 
-    System.out.println("Enter the amount of books in your volume: ")
-    Scanner keyboard = new Scanner(System.in);
-        int size = keyboard.nextInt();
+        Book b1 = new Book("Douglas Adams", "The Hitchhiker's Guide to the Galaxy", 1026);
+        Book b2 = new Book("Matthew Ashford", "What I Learned in Economics", 120);
 
-        String[] Book = new String[size];
-    while (size != 0) {
-        for (i = 0; i < size; i++) {
-            Book newBook = new Book[i] = keyboard.next();
+        Volume volume1 = new Volume("Volume 1", 2);
+
+        volume1.getBookArray();
+        System.out.println(volume1.toString());
+
         } } }
